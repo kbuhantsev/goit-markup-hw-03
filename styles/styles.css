@@ -107,12 +107,31 @@ p {
   color: var(--accent-blue-color);
 }
 
+.logo-header {
+  color: var(--accent-black-color);
+}
+
+.header-navigation .list {
+  display: flex;
+}
+
+.header-navigation .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-navigation .link {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .header-contacts {
+  display: flex;
   color: var(--main-grey-color);
 }
 
-.logo-header {
-  color: var(--accent-black-color);
+.header-contacts .item:last-child {
+  margin-left: 50px;
 }
 
 /* Hero */
