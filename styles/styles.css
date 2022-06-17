@@ -1,6 +1,7 @@
 :root {
   /* Fonts */
   --main-font-family: "Roboto", sans-serif;
+
   /* Colors */
   --accent-blue-color: #2196f3;
   --accent-black-color: #000;
@@ -34,6 +35,7 @@ p {
 }
 
 /* Common styles */
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -53,7 +55,7 @@ p {
   width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .link {
@@ -92,6 +94,7 @@ p {
 }
 
 /* Header */
+
 .header {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -150,7 +153,6 @@ p {
 .section-hero {
   background-color: var(--hero-background-color);
   text-align: center;
-  /* outline: 1px transparent tomato; */
 }
 
 .hero-title {
@@ -210,6 +212,7 @@ p {
 }
 
 /* What are we doing */
+
 .works-title {
   padding-bottom: 50px;
 }
@@ -221,6 +224,7 @@ p {
 }
 
 /* Our team */
+
 .section-team {
   background-color: var(--btn-filter-bg-color);
 }
@@ -263,9 +267,9 @@ p {
 }
 
 /* Footer */
+
 .section-footer {
   background-color: var(--hero-background-color);
-  /* outline: 1px transparent tomato; */
 }
 
 .footer-container {
