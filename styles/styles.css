@@ -95,6 +95,11 @@ p {
   letter-spacing: 0.02em;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .site-logo {
   color: var(--accent-black-color);
   font-family: "Raleway";
@@ -109,6 +114,10 @@ p {
 
 .logo-header {
   color: var(--accent-black-color);
+}
+
+.header-navigation {
+  margin-left: 90px;
 }
 
 .header-navigation .list {
@@ -128,9 +137,10 @@ p {
 .header-contacts {
   display: flex;
   color: var(--main-grey-color);
+  margin-left: auto;
 }
 
-.header-contacts .item:last-child {
+.header-contacts .item + .item {
   margin-left: 50px;
 }
 
@@ -170,6 +180,20 @@ p {
 }
 
 /* Goals */
+
+.goals-list {
+  display: flex;
+  padding: 95px 0px;
+}
+
+.goals-list .article-item:not(:first-of-type) {
+  padding-left: 30px;
+}
+
+.goals-list .article-title {
+  padding-bottom: 10px;
+}
+
 .article-title {
   font-weight: 700;
   font-size: 14px;
@@ -178,12 +202,9 @@ p {
   color: var(--main-dark-color);
 }
 
-.goals-list {
-  padding: 95px 215px;
-}
-
-.goals-list .article-title {
-  padding-bottom: 10px;
+.article-description {
+  line-height: 1.7;
+  color: var(--main-grey-color);
 }
 
 /* What are we doing */
@@ -192,13 +213,30 @@ p {
 }
 
 .works-list {
+  display: flex;
+  justify-content: space-between;
   padding-bottom: 95px;
 }
 
 /* Our team */
+.section-team {
+  padding-bottom: 95px;
+  background-color: var(--btn-filter-bg-color);
+}
+
 .team-title {
   padding-top: 95px;
   padding-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item {
+  text-align: center;
+  background-color: var(--main-white-color);
 }
 
 .team-name {
@@ -213,6 +251,9 @@ p {
 
 .team-position {
   font-size: 16px;
+  line-height: 1.2;
+  color: var(--main-grey-color);
+  text-align: center;
   padding-bottom: 30px;
 }
 
@@ -220,6 +261,16 @@ p {
 .section-footer {
   background-color: var(--hero-background-color);
   outline: 1px transparent tomato;
+}
+
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container .site-logo {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .logo-footer {
@@ -236,9 +287,15 @@ p {
 
 .footer-address {
   color: var(--main-white-color);
-  border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.address-item:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+/* .address-item{
+  display: inline-block;
+} */
 
 /* Portfolio */
 
@@ -282,6 +339,7 @@ p {
 .portfolio-category {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--main-grey-color);
 }
 
 .portfolio-list {
