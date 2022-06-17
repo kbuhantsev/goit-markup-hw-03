@@ -51,7 +51,7 @@ p {
   width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 .link {
@@ -148,7 +148,7 @@ p {
 .section-hero {
   background-color: var(--hero-background-color);
   text-align: center;
-  outline: 1px transparent tomato;
+  /* outline: 1px transparent tomato; */
 }
 
 .hero-title {
@@ -260,7 +260,7 @@ p {
 /* Footer */
 .section-footer {
   background-color: var(--hero-background-color);
-  outline: 1px transparent tomato;
+  /* outline: 1px transparent tomato; */
 }
 
 .footer-container {
@@ -292,10 +292,6 @@ p {
 .address-item:not(:last-child) {
   padding-bottom: 10px;
 }
-
-/* .address-item{
-  display: inline-block;
-} */
 
 /* Portfolio */
 
