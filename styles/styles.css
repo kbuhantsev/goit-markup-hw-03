@@ -220,6 +220,10 @@ p {
 
 /* What are we doing */
 
+.section-works {
+  padding-top: 0;
+}
+
 .works-title {
   padding-bottom: 50px;
 }
