@@ -9,6 +9,7 @@
   --main-grey-color: #757575;
   --hero-background-color: #2f303a;
   --btn-filter-bg-color: #f5f4fa;
+  --potrfolio-cart-border-color: #eeeeee;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Clear browser styles */
 h1,
 h2,
 h3,
@@ -51,7 +53,7 @@ p {
   width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 .link {
@@ -220,8 +222,11 @@ p {
 
 /* Our team */
 .section-team {
-  padding-bottom: 95px;
   background-color: var(--btn-filter-bg-color);
+}
+
+.section-team .container {
+  padding-bottom: 95px;
 }
 
 .team-title {
@@ -295,6 +300,17 @@ p {
 
 /* Portfolio */
 
+.list-filter {
+  display: flex;
+  justify-content: center;
+  padding-top: 95px;
+  margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn-filter {
   display: inline-block;
   background-color: var(--btn-filter-bg-color);
@@ -307,21 +323,13 @@ p {
   color: inherit;
 }
 
-.button-list {
-  padding-top: 95px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.button-list > .btn-filter:not(:last-child) {
-  margin-right: 8px;
-}
-
 .btn-filter:hover,
 .btn-filter:focus {
   background-color: var(--accent-blue-color);
   color: var(--main-white-color);
 }
+
+/* list of works */
 
 .portfolio-title {
   font-weight: 700;
@@ -330,14 +338,25 @@ p {
   letter-spacing: 0.06em;
   padding-top: 20px;
   padding-bottom: 5px;
+  padding-left: 25px;
 }
 
 .portfolio-category {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-grey-color);
+  padding-left: 25px;
+  padding-bottom: 20px;
 }
 
 .portfolio-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   padding-bottom: 95px;
+}
+
+.potrtfolio-item {
+  border: 1px solid var(--potrfolio-cart-border-color);
 }
