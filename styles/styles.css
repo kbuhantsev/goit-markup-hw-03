@@ -50,11 +50,10 @@ p {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 0 auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   /* outline: 2px solid tomato; */
 }
 
@@ -365,6 +364,11 @@ p {
   gap: 30px;
 }
 
-.potrtfolio-item {
+.portfolio-footer {
   border: 1px solid var(--potrfolio-cart-border-color);
+  border-top: 0;
+}
+
+.portfolio-item img {
+  border-bottom: 0;
 }
