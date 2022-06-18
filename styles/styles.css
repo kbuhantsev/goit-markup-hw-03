@@ -365,10 +365,12 @@ p {
 }
 
 .portfolio-footer {
-  border: 1px solid var(--potrfolio-cart-border-color);
   border-top: 0;
+  border-left: 1px solid var(--potrfolio-cart-border-color);
+  border-bottom: 1px solid var(--potrfolio-cart-border-color);
+  border-right: 1px solid var(--potrfolio-cart-border-color);
 }
 
-.portfolio-item img {
+.potrtfolio-item img {
   border-bottom: 0;
 }
