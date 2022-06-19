@@ -339,6 +339,11 @@ p {
 
 /* list of works */
 
+.potrtfolio-image {
+  display: block;
+  border-bottom: 0;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
@@ -369,8 +374,4 @@ p {
   border-left: 1px solid var(--potrfolio-cart-border-color);
   border-bottom: 1px solid var(--potrfolio-cart-border-color);
   border-right: 1px solid var(--potrfolio-cart-border-color);
-}
-
-.potrtfolio-item img {
-  border-bottom: 0;
 }
