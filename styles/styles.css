@@ -349,17 +349,13 @@ p {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  padding-left: 25px;
+  margin-bottom: 4px;
 }
 
 .portfolio-category {
   font-size: 16px;
   line-height: 1.88;
   color: var(--main-grey-color);
-  padding-left: 25px;
-  padding-bottom: 20px;
 }
 
 .portfolio-list {
@@ -374,4 +370,5 @@ p {
   border-left: 1px solid var(--potrfolio-cart-border-color);
   border-bottom: 1px solid var(--potrfolio-cart-border-color);
   border-right: 1px solid var(--potrfolio-cart-border-color);
+  padding: 20px 25px;
 }
