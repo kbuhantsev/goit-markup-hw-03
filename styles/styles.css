@@ -1,6 +1,6 @@
 :root {
   /* Fonts */
-  --main-font-family: "Roboto", sans-serif;
+  --main-font-family: 'Roboto', sans-serif;
 
   /* Colors */
   --accent-blue-color: #2196f3;
@@ -115,7 +115,7 @@ p {
 
 .site-logo {
   color: var(--accent-black-color);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -161,6 +161,8 @@ p {
 .section-hero {
   background-color: var(--hero-background-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -171,7 +173,6 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 
@@ -188,7 +189,6 @@ p {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  margin-bottom: 200px;
 }
 
 /* Goals */
@@ -198,11 +198,11 @@ p {
 }
 
 .goals-list .article-item:not(:first-of-type) {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 .goals-list .article-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .article-title {
@@ -260,7 +260,7 @@ p {
   text-align: center;
   color: var(--main-dark-color);
   padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -304,7 +304,7 @@ p {
 }
 
 .address-item:not(:last-child) {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* Portfolio */
