@@ -52,7 +52,7 @@ p {
 
 .container {
   margin: 0 auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 2px solid tomato; */
@@ -92,6 +92,7 @@ p {
   font-family: inherit;
   color: inherit;
   border: 1px solid transparent;
+  margin: 0;
 }
 
 .section-title {
@@ -199,6 +200,10 @@ p {
   display: flex;
 }
 
+.article-item {
+  width: 270px;
+}
+
 .goals-list .article-item:not(:first-of-type) {
   margin-left: 30px;
 }
@@ -277,14 +282,11 @@ p {
 
 .section-footer {
   background-color: var(--hero-background-color);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer-container .site-logo {
+.section-footer .site-logo {
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -332,6 +334,7 @@ p {
   text-align: center;
   letter-spacing: inherit;
   color: inherit;
+  padding: 6px 22px;
 }
 
 .btn-filter:hover,
