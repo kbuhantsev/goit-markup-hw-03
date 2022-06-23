@@ -11,6 +11,7 @@
   --hero-background-color: #2f303a;
   --btn-filter-bg-color: #f5f4fa;
   --potrfolio-cart-border-color: #eeeeee;
+  --card-set-gap: 30px;
 }
 
 body {
@@ -201,15 +202,12 @@ p {
 }
 
 .article-item {
-  width: 270px;
+  flex-basis: calc((100% + var(--card-set-gap)) / 4 - var(--card-set-gap));
+  /* То же самое: flex-basis: calc((100% - 3 * var(--card-set-gap)) / 4); */
 }
 
 .goals-list .article-item:not(:first-of-type) {
   margin-left: 30px;
-}
-
-.goals-list .article-title {
-  margin-bottom: 10px;
 }
 
 .article-title {
@@ -218,6 +216,7 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-dark-color);
+  margin-bottom: 10px;
 }
 
 .article-description {
