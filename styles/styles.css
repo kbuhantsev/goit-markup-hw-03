@@ -22,6 +22,7 @@ body {
 }
 
 /* Clear browser styles */
+
 h1,
 h2,
 h3,
@@ -158,6 +159,7 @@ p {
 }
 
 /* Hero */
+
 .section-hero {
   background-color: var(--hero-background-color);
   text-align: center;
